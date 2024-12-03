@@ -18,7 +18,4 @@
   <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="halcyon" revision="ursinia" />
   <project path="vendor/xiaomi/citrus" name="vendor_xiaomi_citrus" remote="halcyon" revision="ursinia" /> 
 
-  <!-- Lawnchair -->
-  <project path="packages/apps/Lawnchair" name="lawnchair" remote="lawnchair" revision="15-dev" />
-
 </manifest>
