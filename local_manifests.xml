@@ -5,16 +5,17 @@
   <remote name="astechpro20" fetch="https://github.com/AsTechpro20" />
   <remote name="halcyon" fetch="https://gitlab.com/halcyonproject/blobs" />
   <remote name="nnippon99" fetch="https://github.com/nnippon99" />
+  <remote name="apum" fetch="https://github.com/Dominium-Apums" />
   
   <!-- Device Trees -->
-  <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="astechpro20" revision="lineage-22" />
+  <project path="device/xiaomi/chime" name="device_xiaomi_chime_1" remote="astechpro20" revision="afterlife-13" />
 
   <!-- kernel tree -->
-  <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime" remote="nnippon99" revision="viola-ksu" />
+  <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime" remote="apum" revision="main" />
 
   <!-- Vendor Trees -->
   <project path="vendor/xiaomi/lime" name="vendor_xiaomi_lime" remote="halcyon" revision="ursinia" />
-  <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="halcyon" revision="ursinia" />
+  <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="apum" revision="shelby-topaz" />
   <project path="vendor/xiaomi/citrus" name="vendor_xiaomi_citrus" remote="halcyon" revision="ursinia" /> 
   
 </manifest>
